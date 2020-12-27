@@ -13,7 +13,7 @@
     <version>0.0.1-SNAPSHOT</version>
     <packaging>war</packaging>
     <name>ip-test</name>
-    <description>Demo project for Spring Boot</description>
+    <description>一个查看请求外网ip的服务</description>
 
     <properties>
         <java.version>1.8</java.version>
@@ -67,6 +67,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
         </plugins>
+        <finalName>ipTest</finalName>
     </build>
 
 </project>

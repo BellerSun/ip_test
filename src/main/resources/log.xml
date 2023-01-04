@@ -2,7 +2,7 @@
 <configuration>
 
     <!--<property name="LOG_DIR" value="C:/Users/孙玉朝/Desktop/logs/ipTest" />-->
-    <property name="LOG_DIR" value="/home/admin/ip-test/logs" />
+    <property name="LOG_DIR" value="./logs" />
     <property name="APP_NAME" value="ip-test" />
 
     <appender name="console" class="ch.qos.logback.core.ConsoleAppender">
